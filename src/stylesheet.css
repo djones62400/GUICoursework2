@@ -26,18 +26,34 @@
 }
 
 .button1 {
-    -fx-border-radius: 8px;
+    -fx-border-radius: 12px;
     -fx-background-color: #ffcc84;
     -fx-border-color: #000000;
     -fx-font-size: 36;
+    -fx-font-weight: bold;
+
+}
+.button1:pressed {
+    -fx-border-radius: 12px;
+    -fx-background-color: #e8ba7a;
+    -fx-border-color: #000000;
+    -fx-font-size: 36;
+    -fx-font-weight: bold;
 }
 
 .button2 {
-    -fx-border-radius: 8px;
+    -fx-border-radius: 12px;
     -fx-background-color: #ffcc84;
     -fx-border-color: #000000;
     -fx-font-size: 36;
+    -fx-font-weight: bold;
 
+.button2:pressed {
+    -fx-border-radius: 12px;
+    -fx-background-color: #e8ba7a;
+    -fx-border-color: #000000;
+    -fx-font-size: 36;
+    -fx-font-weight: bold;
 
 }
 .button3 {-fx-border-radius: 8px;}
