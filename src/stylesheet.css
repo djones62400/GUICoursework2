@@ -1,8 +1,6 @@
-.root{
+.root {
     -fx-background-color: #ffcda5;
 }
-
-
 
 .checkbutton {
     -fx-text-fill: black;
@@ -22,7 +20,6 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-
 }
 
 .button1 {
@@ -31,8 +28,8 @@
     -fx-border-color: #000000;
     -fx-font-size: 36;
     -fx-font-weight: bold;
-
 }
+
 .button1:pressed {
     -fx-border-radius: 12px;
     -fx-background-color: #e8ba7a;
@@ -47,6 +44,7 @@
     -fx-border-color: #000000;
     -fx-font-size: 36;
     -fx-font-weight: bold;
+}
 
 .button2:pressed {
     -fx-border-radius: 12px;
@@ -54,8 +52,16 @@
     -fx-border-color: #000000;
     -fx-font-size: 36;
     -fx-font-weight: bold;
-
 }
-.button3 {-fx-border-radius: 8px;}
-.button4 {-fx-border-radius: 12px;}
-.button5 {-fx-border-radius: 50%;}
+
+.button3 {
+    -fx-border-radius: 8px;
+}
+
+.button4 {
+    -fx-border-radius: 12px;
+}
+
+.button5 {
+    -fx-border-radius: 50%;
+}

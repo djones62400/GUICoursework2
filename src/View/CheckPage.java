@@ -1,5 +1,6 @@
 package View;
 import Controller.CheckPageController;
+import javafx.event.ActionEvent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.Pane;
@@ -44,6 +45,7 @@ public class CheckPage {
         checkIn.setLayoutY(200);
         checkIn.setPrefWidth(500);
         checkIn.setPrefHeight(200);
+        checkIn.setOnAction((ActionEvent ae) -> cpc.openCheckIn());
         root.getChildren().add(checkIn);
 
         Button checkOut = new Button("Check Out");
@@ -53,9 +55,8 @@ public class CheckPage {
         checkOut.setPrefWidth(500);
         checkOut.setPrefHeight(200);
         root.getChildren().add(checkOut);
+        checkOut.setOnAction((ActionEvent ae) -> cpc.openCheckOut());
 
-        //checkOut.setOnAction((ActionEvent ae) -> doSomething(ae));
-        //boolean add = root.getChildren().add(checkIn);
         return scene;
 
     }
