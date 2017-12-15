@@ -19,11 +19,15 @@ public class CheckIn {
         Line line2 = new Line(0, 850, 1290, 850);
         root.getChildren().add(line2);
 
-        Text test = new Text();
-        test.setText("hi");
-        test.setLayoutX(250);
+        Text pageTitle = new Text();
+        pageTitle.setText("Check in previous items:");
+        root.getChildren().add(pageTitle);
+        pageTitle.setLayoutX(525);
+        pageTitle.setLayoutY(125);
+        pageTitle.setStyle("-fx-font: 32 arial;");
 
         return checkInScene;
     }
 }
 //hello
+//hello2

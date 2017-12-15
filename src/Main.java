@@ -12,8 +12,8 @@ public class Main extends Application {
         stage.setTitle("Inventory Application Program");
         stage.setResizable(false);
 
-        Scene checkPage = CheckPage.createScene(stage);
-        stage.setScene(checkPage);
+        Scene mainMenu = MainMenu.createScene(stage);
+        stage.setScene(mainMenu);
         stage.show();
 
 
