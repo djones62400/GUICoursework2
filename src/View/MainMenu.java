@@ -1,6 +1,7 @@
+package View;
+
 import Controller.MainMenuController;
 import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -11,7 +12,6 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
-import javafx.scene.paint.Color;
 import javafx.scene.shape.Line;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
@@ -20,7 +20,7 @@ import javafx.stage.Stage;
 
 public class MainMenu {
     public static Scene createScene (Stage stage){
-        MainMenuController cpc = new MainMenuController(stage);
+        MainMenuController mmc = new MainMenuController(stage);
         Pane root = new Pane();
         Scene checkOutScene = new Scene(root, 1280, 900);
 
@@ -66,7 +66,7 @@ public class MainMenu {
         final Text actiontarget = new Text();
         grid.add(actiontarget, 1, 6);
 
-        btn.setOnAction((ActionEvent ae) -> cpc.openCheckPage());
+        btn.setOnAction((ActionEvent ae) -> mmc.openCheckPage());
 
         return scene;
 

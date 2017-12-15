@@ -1,6 +1,6 @@
 package Controller;
 
-import View.*;
+import View.CheckPage;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 

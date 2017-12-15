@@ -9,6 +9,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 public class CheckPage {
+
     public static Scene createScene(Stage stage){
         CheckPageController cpc = new CheckPageController(stage);
         Pane root = new Pane();
